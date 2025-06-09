@@ -9,7 +9,7 @@ class Asteroid(CircleShape):
 
     def draw(self, screen):
         tuple(self.position)
-        pygame.draw.circle(screen, "white", self.position, 2)
+        pygame.draw.circle(screen, "white", self.position, self.radius)
         
 
     def update(self, dt):
